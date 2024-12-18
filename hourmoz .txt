@@ -1,0 +1,483 @@
+<!-- Hero section HTML Code-->
+<section class="hero">
+  <div class="content">
+    <p class="subtitle">هرمز لإستقدام العمالة المنزلية</p>
+    <h1 class="title">أفضل مكتب إستقدام في عمان</h1>
+
+<p class="description">
+  <i class="fas fa-check-circle description-icon"></i>
+  نتخيل مستقبلاً يعيش فيه الناس بأسلوب حياة أفضل.
+</p>
+<p class="description">
+  <i class="fas fa-check-circle description-icon"></i>
+  تمكين الحلول الفعالة والمستدامة بالدقة والسرعة المطلوبة هي الكيفية التي
+  سنشكل بها هذا المستقبل.
+</p>
+<p class="description">
+  <i class="fas fa-check-circle description-icon"></i>
+  نحن نقدم أفضل خدمة إستقدام عمالة منزلية في عمان.
+</p>
+
+
+    <a href="https://wa.me/96898974872" class="action hero-button" target="_blank">
+      <i class="fas fa-arrow-left"></i> اختيار العمالة
+    </a>
+  </div>
+
+  <div class="image">
+    <img
+      src="https://hurmozom.com/wp-content/uploads/2024/12/about-image.jpg"
+      alt="Hero Image"
+    />
+    
+    <h2 class="experience-years">8 سنوات خبرة</h2>
+  </div>
+</section>
+<!-- Hero Section Style -->
+<style>
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 20px 20px 0;
+  background-color: #f9f9f9;
+}
+
+.content {
+  text-align: center;
+  width: 690px;
+  flex: 1;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #2099ac;
+  margin-bottom: 20px;
+  text-align: right;
+  line-height: 1.4;
+}
+
+.description {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #555;
+  font-weight: 500;
+    display: flex;
+  align-items: start; 
+  gap: 10px; 
+  text-align: right;
+}
+
+.description-icon {
+  font-size: 1.4rem;
+  color: #2099ac; 
+  transition: color 0.3s ease;
+  margin-top: 10px;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 15px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #2099ac;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  margin-top: 30px;
+}
+
+.hero-button i {
+  transition: all 0.5s ease;
+  display: none;
+}
+
+.hero-button:hover i {
+  display: block;
+}
+
+.hero-button:hover {
+  background-color: ##2099dd;
+  color: #fff;
+}
+
+.image {
+  flex: 1;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .hero {
+flex-direction: column;
+gap: 40px;
+padding: 20px;
+  }
+  
+  .content {
+      width: 100%
+  }
+  
+  .title {
+      font-size: 30px;
+  }
+}
+</style>
+
+
+<!--About Section Html Code-->
+<section class="about">
+
+    <div class="about-content">
+      <p class="about-subtitle">هرمز للإستقدام اختيارك الأمثل</p>
+
+<p class="about-description">
+  فريق هرمز هو نخبة من العمانيين والعمانيات ذوي الكفاءة والخبرات
+  اللازمتين في مجال التوسط في استقدام العمالة المنزلية من عدة دول
+  وبمختلف المهن، مع التميز والريادة في سلطنة عمان.
+</p>
+<p class="about-commitment">
+  <i class="fas fa-flag-checkered"></i> هرمز للإستقدام تلتزم بالعمل وفق أربعة مبادئ أساسية:
+</p>
+
+<ul class="about-principles">
+  <li>
+    <i class="fas fa-seedling"></i>
+    <span>الاستدامة والتطوير</span>
+  </li>
+  <li>
+    <i class="fas fa-handshake"></i>
+    <span>الجدارة بالثقة</span>
+  </li>
+  <li>
+    <i class="fas fa-bullseye"></i>
+    <span>الدقة الفائقة</span>
+  </li>
+  <li>
+    <i class="fas fa-bolt"></i>
+    <span>السرعة المطلوبة</span>
+  </li>
+</ul>
+
+
+    </div>
+</section>
+<!--About Section Style -->
+<style>
+    /* About Section */
+.about {
+  background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
+  padding:  80px 50px 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.about-image {
+  flex: 1;
+  position: relative;
+  border-radius: 15px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  animation: floatImage 5s infinite linear;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(-10px) translateX(10px);
+  }
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+}
+
+
+.experience-years {
+  background-color: #fff;
+  color: #2099AC;
+  padding: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 20px 3px 3px 20px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border-right: 10px solid #2099AC;
+  position: absolute;
+  top: 10px;
+  
+}
+
+
+.about-content {
+  flex: 1;
+}
+
+.about-subtitle {
+  font-size: 2.2rem;
+  color: #2099AC;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #222;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-commitment {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.about-commitment i {
+    color: #2099AC;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+.about-principles {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 10px;
+}
+
+.about-principles li {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #444;
+  transition: transform 0.3s ease;
+  font-weight: 600;
+}
+
+.about-principles li:hover {
+  transform: translateY(-5px);
+}
+
+.about-principles i {
+  margin-left: 10px;
+  color: #2099AC;
+  font-size: 25px;
+}
+
+.about-principles span {
+  flex: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .about {
+    flex-direction: column;
+  }
+  
+  .about-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .about-description,
+  .about-principles li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+    .about-principles {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
+
+</style>
+
+
+
+
+<!-- Countries Html Code -->
+<section class="countries">
+  <h2 class="countries-title">دول الإستقدام</h2>
+  <div class="countries-grid">
+    <!-- Country 1 -->
+    <div class="country-box">
+      <div class="country-decoration"></div>
+      <img src="https://hurmozom.com/wp-content/uploads/2024/12/Flag_of_Uganda.svg_.png" alt="أوغندا" class="country-image" />
+      <p class="country-name">الاستقدام من دولة أوغندا</p>
+    </div>
+
+    <!-- Country 2 -->
+    <div class="country-box">
+      <div class="country-decoration"></div>
+      <img src="https://hurmozom.com/wp-content/uploads/2024/12/Flag_of_Ethiopia.svg.png" alt="أثيوبيا" class="country-image" />
+      <p class="country-name">الاستقدام من دولة أثيوبيا</p>
+    </div>
+
+    <!-- Country 3 -->
+    <div class="country-box">
+      <div class="country-decoration"></div>
+      <img src="https://hurmozom.com/wp-content/uploads/2024/12/Flag_of_Bangladesh.svg_.png" alt="بنجلاديش" class="country-image" />
+      <p class="country-name">الاستقدام من دولة بنجلاديش</p>
+    </div>
+
+    <!-- Country 4 -->
+    <div class="country-box">
+      <div class="country-decoration"></div>
+      <img src="https://hurmozom.com/wp-content/uploads/2024/12/Flag_of_Kenya.svg_.png" alt="كنيا" class="country-image" />
+      <p class="country-name">الاستقدام من دولة كينيا</p>
+    </div>
+
+    <!-- Country 5 -->
+    <div class="country-box">
+      <div class="country-decoration"></div>
+      <img src="https://hurmozom.com/wp-content/uploads/2024/12/Flag_of_India.svg.png" alt="الهند" class="country-image" />
+      <p class="country-name">الاستقدام من دولة الهند</p>
+    </div>
+
+    <!-- Country 6 -->
+    <div class="country-box">
+      <div class="country-decoration"></div>
+      <img src="https://hurmozom.com/wp-content/uploads/2024/12/Flag_of_the_Philippines.svg_.png" alt="الفلبين" class="country-image" />
+      <p class="country-name">الاستقدام من دولة الفلبين</p>
+    </div>
+  </div>
+</section>
+
+<!-- Countries Css Code Style -->
+
+
+<style>
+/* Section Styles */
+.countries {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  background: #e7f3fc;
+
+}
+
+
+/* Section Title */
+.countries-title {
+  font-size: 2rem;
+  color: #2099AC;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Grid Layout */
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+}
+
+/* Box Styles */
+.country-box {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.country-box::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  background-color: #2099AC;
+  border-radius: 50%;
+  opacity: 0.3;
+  transition: transform 0.5s ease;
+}
+
+
+
+.country-box:hover::after {
+  transform: scale(4.8) translateY(10px);
+}
+
+.country-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styles */
+.country-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Country Name */
+.country-name {
+  font-size: 0.9rem;
+  color: #2099AC;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .countries::before {
+    top: -20px;
+    left: -20px;
+  }
+  .countries::after {
+    bottom: 20px;
+    right: -20px;
+  }
+}
+</style>
+
+
+
+
+
+
